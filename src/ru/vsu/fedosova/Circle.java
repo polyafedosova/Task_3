@@ -10,9 +10,9 @@ public class Circle
         this.center = center;
         this.radius = radius;
     }
+
     public boolean isPointInside(Point point)
     {
-        return Math.pow(point.getX() - center.getX(), 2) + Math.pow(point.getY() - center.getY(), 2)
-                <= radius * radius;
+        return Math.pow(point.getX() - center.getX(), 2) + Math.pow(point.getY() - center.getY(), 2) <= radius * radius;
     }
 }

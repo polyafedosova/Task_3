@@ -2,8 +2,8 @@ package ru.vsu.fedosova;
 
 public class Point
 {
-    double x;
-    double y;
+    private final double x;
+    private  final double y;
 
     public Point(double x, double y)
     {

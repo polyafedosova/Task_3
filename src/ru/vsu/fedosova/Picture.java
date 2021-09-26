@@ -15,7 +15,7 @@ public class Picture
         this.circle = circle;
     }
 
-    SimpleColor getColor(Point point)
+    public SimpleColor getColor(Point point)
     {
         if (rightParabola.isPointInside(point))
             return SimpleColor.GRAY;

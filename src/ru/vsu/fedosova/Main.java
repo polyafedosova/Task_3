@@ -42,6 +42,7 @@ public class Main
         }
     }
 
+    //тесты
     private static boolean runTest(Picture picture)
     {
         SimpleColor[] expectedColors = {SimpleColor.GREEN, SimpleColor.WHITE,
@@ -85,6 +86,7 @@ public class Main
         return scanner.nextDouble();
     }
 
+    //тест
     private static void printResult(Point point, SimpleColor color, SimpleColor expectedColor, String conclusion)
     {
         System.out.printf("Point(%.2f ; %.2f) => Color: %s;  Expected color: %s; Тhe result is %s.\n",
